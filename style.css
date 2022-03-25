@@ -1,0 +1,28 @@
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    row-gap: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.container{
+    display: grid;
+    row-gap: 60px;
+    gap: 50px 50px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    margin: 100px;
+    max-height: fit-content;
+    max-width: fit-content;
+    min-height: auto;
+    min-width: none;
+}
+
+
+h1{
+    text-align: center;
+}
